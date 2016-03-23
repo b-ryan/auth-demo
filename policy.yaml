@@ -1,0 +1,12 @@
+service_1:
+  "GET /clients/:client-id/resources":
+    - "admin_user"
+    - "normal_user"
+    - "backend_process"
+
+  "POST /resource":
+    - "admin_user"
+    - "backend_process"
+
+  "GET /resources":
+    - "backend_process"
